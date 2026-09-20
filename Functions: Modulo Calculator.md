@@ -11,9 +11,18 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+```
+def find_modulo(a, b):
+    return a % b
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
 
-Add code Here
+result = find_modulo(num1, num2)
+print("The modulo of", num1, "and", num2, "is:", result)
+```
 
 ## Output
+<img width="1407" height="273" alt="image" src="https://github.com/user-attachments/assets/6becd7b7-b923-4780-9df9-b2460f6846f4" />
 
 ## Result
+The code is executed successfully.
